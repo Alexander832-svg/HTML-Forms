@@ -6,6 +6,27 @@
     <title>8.1 Form Elements</title>
 </head>
 <body>
-    
+    <form>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname"><br>
+        
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname"><br>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email"><br>
+        
+        <label for="birthdate">Birthdate</label>
+        <input type="date" id="birthdate"><br>
+        
+        <label for="color">Color</label>
+        <input type="color" id="color"><br>
+        
+        <button onclick="processForm(event)">Submit</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
